@@ -1,0 +1,59 @@
+.l-heading {
+  font-size: 42px;
+  font-weight: bold;
+  color: $dark-color;
+  font-family: $heading-font;
+  line-height: 40px;
+  letter-spacing: -3px;
+}
+
+.i-heading {
+  font-size: 16px;
+  font-style: italic;
+  color: $dark-color;
+  font-family: $secondary-font;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.btn {
+  border: 2px solid $dark-color;
+
+  a {
+    padding: 15px 35px;
+
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.75s;
+    letter-spacing: -1px;
+    font-family: $heading-font;
+    font-size: 12px;
+    color: $dark-color;
+  }
+}
+
+.btn a:hover {
+  background: $dark-color;
+  color: $light-color;
+  opacity: 0.9;
+}
+
+.btn-s {
+  border: 2px solid $dark-color;
+
+  padding: 15px 35px;
+
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.75s;
+  letter-spacing: -1px;
+  font-family: $heading-font;
+  font-size: 12px;
+  color: $dark-color;
+}
+
+.btn-s:hover {
+  background: $dark-color;
+  color: $light-color;
+  opacity: 0.9;
+}

@@ -1,0 +1,282 @@
+@media (max-width: 980px) {
+  .l-heading {
+    font-size: 32px !important;
+  }
+  .main-navbar {
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 1rem !important;
+    width: auto !important;
+    ul {
+      flex-direction: column;
+      align-items: flex-end !important;
+    }
+  }
+
+  .showcase-content {
+    padding-right: 3rem !important;
+
+    h1 {
+      font-size: 48px !important;
+    }
+  }
+
+  #about {
+    .about-img-1 {
+      height: 400px !important;
+    }
+    .about-img-2 {
+      height: 400px !important;
+    }
+    .about-p-1 {
+      padding: 30px 30px 0 30px !important;
+    }
+    .about-p-2 {
+      padding: 30px 30px 0 30px !important;
+    }
+
+    .about-flex {
+      p {
+        margin-bottom: 20px !important;
+      }
+    }
+  }
+
+  #services {
+    &-a {
+      .services-img-1 {
+        height: 400px !important;
+      }
+      .services-writing {
+        padding: 30px 30px 0 30px !important;
+      }
+    }
+
+    &-b {
+      margin-top: 50px !important;
+      .services-box-1 {
+        padding: 0 20px !important;
+      }
+      .services-box-2 {
+        padding: 0 20px !important;
+      }
+      .services-box-3 {
+        padding: 0 20px !important;
+      }
+    }
+
+    &-c {
+      .services-statement {
+        padding: 30px 20px 50px 20px !important;
+      }
+    }
+  }
+
+  #portfolio {
+    .portfolio-writing {
+      p {
+        display: none;
+      }
+    }
+
+    .content {
+      opacity: 1 !important;
+      margin: 10px !important;
+    }
+
+    .portfolio-1 {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-1.jpeg") no-repeat center center/cover !important;
+    }
+
+    .portfolio-1:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-1.jpeg") no-repeat center center/cover !important;
+    }
+    .portfolio-2 {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-2.jpeg") no-repeat center center/cover !important;
+    }
+
+    .portfolio-2:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-2.jpeg") no-repeat center center/cover !important;
+    }
+    .portfolio-3 {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-3.jpeg") no-repeat center center/cover !important;
+    }
+
+    .portfolio-3:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-3.jpeg") no-repeat center center/cover !important;
+    }
+    .portfolio-4 {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-4.jpg") no-repeat center center/cover !important;
+    }
+
+    .portfolio-4:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-4.jpg") no-repeat center center/cover !important;
+    }
+    .portfolio-5 {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-5.jpg") no-repeat center center/cover !important;
+    }
+
+    .portfolio-5:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-5.jpg") no-repeat center center/cover !important;
+    }
+    .portfolio-6 {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-6.jpg") no-repeat center center/cover !important;
+    }
+
+    .portfolio-6:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-6.jpg") no-repeat center center/cover !important;
+    }
+    .portfolio-7 {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-7.jpg") no-repeat center center/cover !important;
+    }
+
+    .portfolio-7:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/porfolio-7.jpg") no-repeat center center/cover !important;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .main-navbar {
+    ul {
+      li {
+        margin: 10px 10px !important;
+      }
+    }
+  }
+  .showcase-content {
+    text-align: center !important;
+    padding: 10px !important;
+    padding-top: 40px !important;
+
+    p {
+      padding: 0 10px !important;
+    }
+  }
+
+  #about {
+    .about-grid {
+      display: flex;
+      flex-direction: column;
+
+      .about-img-1 {
+        display: none !important;
+      }
+
+      .about-p-1 {
+        margin-bottom: 20px !important;
+      }
+    }
+
+    .about-flex {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr !important;
+      grid-template-areas:
+        "i3 i7"
+        "i2 i4" !important;
+      justify-content: center !important;
+      align-items: center !important;
+      .coffee {
+        grid-area: i3 !important;
+      }
+      .bike {
+        grid-area: i7 !important;
+      }
+      .brain {
+        grid-area: i2 !important;
+      }
+      .video {
+        grid-area: i4 !important;
+      }
+    }
+  }
+
+  #services {
+    &-a {
+      .services-grid-1 {
+        display: flex !important;
+        flex-direction: column !important;
+      }
+    }
+    &-b {
+      .services-grid-2 {
+        display: flex !important;
+        flex-direction: column !important;
+      }
+    }
+  }
+
+  #portfolio {
+    .portfolio-grid {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+      grid-template-areas:
+        "w bg1"
+        "bg2 bg3"
+        "bg4 bg5"
+        "bg6 bg7" !important;
+      grid-gap: 20px;
+    }
+  }
+
+  #contact {
+    .contact-content {
+      width: 100% !important;
+
+      input {
+        width: 100% !important;
+      }
+      textarea {
+        width: 100% !important;
+      }
+    }
+  }
+
+  #main-footer {
+    .footer-grid {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      text-align: center !important;
+
+      .footer-logo {
+        padding-bottom: 40px !important;
+      }
+      .footer-menu {
+        padding-bottom: 40px !important;
+
+        ul {
+          margin-top: 15px !important;
+        }
+      }
+      .footer-address {
+        padding-bottom: 40px !important;
+        ul {
+          margin-top: 15px !important;
+        }
+      }
+      .footer-contact {
+        padding-bottom: 40px !important;
+        ul {
+          margin-top: 15px !important;
+        }
+      }
+    }
+  }
+}
